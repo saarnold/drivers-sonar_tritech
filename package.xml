@@ -1,0 +1,28 @@
+<package format="2">
+  <name>sonar_tritech</name>
+  <version>0.0.0</version>
+  <description>driver for micron dst and profiling sonar from tritech</description>
+
+  <maintainer email="sylvain.joyeux@m4x.org">Sylvain Joyeux</maintainer>
+  <author     email="matthias.goldhoorn@dfki.de">Matthias Goldhoorn</author>
+
+  <license>LGPL v2 or later</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <build_depend>rock-cmake</build_depend>
+  <build_depend>pkg-config</build_depend>
+
+  <depend>boost</depend>
+  <depend>rock-logging</depend>
+  <depend>rock-types</depend>
+  <depend>rock-iodrivers_base</depend>
+  <depend>rock-aggregator</depend>
+
+  <doc_depend>doxygen</doc_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
+
